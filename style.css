@@ -1,0 +1,9 @@
+.hide {
+  max-height: 0 !important;
+}
+
+.dropdown .menu {
+  transition: max-height 2s;
+  max-height: 20em;
+  overflow: hidden;
+}
